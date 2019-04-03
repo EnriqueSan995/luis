@@ -6,7 +6,7 @@ archivo = open('histograms.txt','r')
 
 contenido = archivo.read()
 #print contenido
-histograma = json.loads(contenido)
+histograma = json.loads(contenido de las variables)
 v_error = histograma["histograms"]["v_error"]
 t_error = histograma["histograms"]["t_error"]
 print histograma['histograms']['v_error']['ys']
